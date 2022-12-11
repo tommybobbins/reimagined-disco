@@ -28,7 +28,6 @@ resource "google_compute_instance" "tester" {
     }
   }
 
-  #  resource_policies = var.project_lifecycle == "development" ? [google_compute_resource_policy.powersaving.self_link] : null
   resource_policies = lookup(local.lifecycle_powersaving, var.project_lifecycle)
 
 
