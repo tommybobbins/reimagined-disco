@@ -23,7 +23,7 @@ $ terraform plan -var-file=secret.tfvars
 $ terraform apply -var-file=secret.tfvars
 ```
 
-
+```
 $ gcloud services list --enabled
 NAME                                 TITLE
 appengine.googleapis.com             App Engine Admin API
@@ -55,3 +55,4 @@ sql-component.googleapis.com         Cloud SQL
 storage-api.googleapis.com           Google Cloud Storage JSON API
 storage-component.googleapis.com     Cloud Storage
 storage.googleapis.com               Cloud Storage API
+```
