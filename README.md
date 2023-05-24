@@ -1,6 +1,6 @@
 # Implement Powersaving on GCP Compute Instances
 
-## terraform nightly shutdown worked example
+## Terraform nightly shutdown using Instance Schedules worked example
 
 Create a secret.tfvars file containing something similar to the following:
 
