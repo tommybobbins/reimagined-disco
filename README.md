@@ -1,4 +1,6 @@
-# terraform nightly shutdown worked example
+# Implement Powersaving on GCP Compute Instances
+
+## terraform nightly shutdown worked example
 
 Create a secret.tfvars file containing something similar to the following:
 
@@ -9,7 +11,7 @@ region            = "europe-west2"
 project_lifecycle = "development"
 ```
 
-Create the   wibbly-flibble-stuff-morestuff.json from :
+Create the  service account keys which will be used for terraform wibbly-flibble-stuff-morestuff.json using:
 ```
 $ gcloud iam service-accounts keys create wibbly-flibble-stuff-morestuff.json \
     --iam-account=SA_NAME@PROJECT_ID.iam.gserviceaccount.com 
